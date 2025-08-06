@@ -47,7 +47,7 @@ A photo-journal app where you're encouraged to take images, add your entries, an
 *  User can register with email and password
 - [ ] Camera screen
 * User can take photos
-- [ ] Notes screen
+- [X] Notes screen
 * User can take notes
 - [ ] Calender view
 * User can view past photo+text entries
@@ -66,7 +66,7 @@ A photo-journal app where you're encouraged to take images, add your entries, an
         => Camera
 - [ ] Registration Screen
         => Camera
-- [ ] Camera
+- [X] Camera
         => Calender
         => Text notes
 
