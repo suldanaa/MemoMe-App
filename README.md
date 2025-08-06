@@ -76,6 +76,8 @@ A photo-journal app where you're encouraged to take images, add your entries, an
 <img src="https://i.ibb.co/6Gy6FBP/IMG-4312.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
+<img src="https://i.ibb.co/vC51WP5z/Screenshot-2025-08-05-at-11-44-51-PM.png" width=600>
+
 
 ### [BONUS] Interactive Prototype
 
