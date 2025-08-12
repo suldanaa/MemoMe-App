@@ -63,7 +63,6 @@ A journal app where you're encouraged to add your entries, and look back on your
 <img src="https://i.ibb.co/cSfmYL3r/Screenshot-2025-08-12-at-10-29-42-AM.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
-<img src="https://i.ibb.co/vC51WP5z/Screenshot-2025-08-05-at-11-44-51-PM.png" width=600>
 
 
 ### [BONUS] Interactive Prototype
