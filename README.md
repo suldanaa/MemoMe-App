@@ -69,8 +69,45 @@ A journal app where you're encouraged to add your entries, and look back on your
 
 ## Schema
 
-### Models
+#### `DiaryEntry`
+A struct representing a diary entry with the following properties:
 
-### Networking
+- `id: String` – Unique identifier for the entry (`UUID`)
+- `content: String` – The text content of the diary entry
+- `date: Date` – The date the entry is associated with
+- `createdDate: Date` – When the entry was first created
 
+**Methods:**
+- `save()` – Saves or updates the entry in `UserDefaults`
+- `static getEntries()` – Retrieves all saved entries
+- `static getEntries(for: Date)` – Gets entries for a specific date
+- `static save(_:)` – Saves an array of entries
 
+---
+
+### **Views / Controllers**
+
+#### `CalendarViewController`
+- Displays a calendar using `UICalendarView`
+- Shows decorations (book icons) for dates with entries
+- Allows selecting dates to view corresponding diary entries
+- Displays entry content when a date is selected
+
+#### `NotesViewController`
+- Provides a text view for writing/editing diary entries
+- Includes a date picker to select/create entries for different dates
+- Handles saving/updating entries
+- Shows placeholder text when no content exists
+
+---
+
+### **Networking**
+This application currently uses local storage only (`UserDefaults`) and doesn't have anything for networking.  
+All data persistence is handled through:
+- `UserDefaults` for storing diary entries
+- JSON encoding/decoding of the `DiaryEntry` model
+
+**Potential future networking features:**
+- Cloud synchronization (iCloud, Firebase, etc.)
+- Backup/restore functionality
+- Multi-device support
