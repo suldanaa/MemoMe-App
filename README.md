@@ -60,7 +60,7 @@ A journal app where you're encouraged to add your entries, and look back on your
 ## Wireframes
 
 [Add picture of your hand sketched wireframes in this section]
-<img src="https://i.ibb.co/6Gy6FBP/IMG-4312.jpg" width=600>
+<img src="https://i.ibb.co/cSfmYL3r/Screenshot-2025-08-12-at-10-29-42-AM.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 <img src="https://i.ibb.co/vC51WP5z/Screenshot-2025-08-05-at-11-44-51-PM.png" width=600>
